@@ -1,7 +1,783 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caf7d3b0-3cbd-4871-895e-5f00d4eac544" name="Default" comment="" />
+    <list default="true" id="caf7d3b0-3cbd-4871-895e-5f00d4eac544" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/bin/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkCleanup.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkCli.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkCli.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkEnv.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkEnv.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkServer.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkServer.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkTxnLogToolkit.cmd" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin/zkTxnLogToolkit.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/BinaryInputArchive$BinaryIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/BinaryInputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/BinaryOutputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/CsvInputArchive$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/CsvInputArchive$CsvIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/CsvInputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/CsvOutputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/Index.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/InputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/OutputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/Record.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/RecordReader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/RecordWriter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/Utils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/XmlInputArchive$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/XmlInputArchive$Value.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/XmlInputArchive$XMLParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/XmlInputArchive$XmlIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/XmlInputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/XmlOutputArchive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/CGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/CSharpGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/CppGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JBoolean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JBuffer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JByte.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JCompType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JDouble.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JField.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JFile.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JFloat.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JInt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JLong.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JMap.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JRecord.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JString.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JVector.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/JavaGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/generated/ParseException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/generated/Rcc.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/generated/RccConstants.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/generated/RccTokenManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/generated/SimpleCharStream.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/generated/Token.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/jute/compiler/generated/TokenMgrError.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/data/ACL.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/data/Id.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/data/Stat.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/data/StatPersisted.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/data/StatPersistedV1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/AuthPacket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/CheckVersionRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/ConnectRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/ConnectResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/CreateRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/CreateResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/DeleteRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/ErrorResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/ExistsRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/ExistsResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetACLRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetACLResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetChildren2Request.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetChildren2Response.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetChildrenRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetChildrenResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetDataRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetDataResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetMaxChildrenRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetMaxChildrenResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/GetSASLRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/MultiHeader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/ReplyHeader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/RequestHeader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetACLRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetACLResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetDataRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetDataResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetMaxChildrenRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetSASLRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetSASLResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SetWatches.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SyncRequest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/SyncResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/proto/WatcherEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/server/persistence/FileHeader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/server/quorum/LearnerInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/server/quorum/QuorumAuthPacket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/server/quorum/QuorumPacket.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/CheckVersionTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/CreateSessionTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/CreateTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/CreateTxnV0.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/DeleteTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/ErrorTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/MultiTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/SetACLTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/SetDataTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/SetMaxChildrenTxn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/Txn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/txn/TxnHeader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/version/Info.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/version/util/VerGen$Version.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/classes/org/apache/zookeeper/version/util/VerGen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/lib/audience-annotations-0.5.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/lib/jline-0.9.94.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/lib/netty-3.10.6.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/lib/slf4j-log4j12-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/antlr-2.7.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/antlr4-annotations-4.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/antlr4-runtime-4.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-core-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-core-api-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-core-avl-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-core-constants-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-core-shared-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-i18n-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptor-kerberos-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-admin-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-authn-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-authz-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-changelog-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-collective-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-event-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-exception-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-journal-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-normalization-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-operational-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-referral-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-schema-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-subtree-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-interceptors-trigger-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-jdbm-partition-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-jdbm1-2.0.0-M2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-kerberos-codec-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-ldif-partition-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-mavibot-partition-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-protocol-kerberos-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-protocol-ldap-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-protocol-shared-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/apacheds-xdbm-partition-2.0.0-M15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-all-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-asn1-api-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-asn1-ber-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-i18n-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-client-api-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-codec-core-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-extras-aci-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-extras-codec-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-extras-codec-api-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-extras-sp-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-extras-trigger-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-extras-util-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-ldap-model-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/api-util-1.0.0-M20.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/audience-annotations-0.5.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/bcprov-jdk15-140.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/checkstyle-6.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/commons-beanutils-core-1.8.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/commons-cli-1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/commons-collections-3.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/commons-io-2.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/commons-pool-1.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/ehcache-core-2.4.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/guava-18.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/hamcrest-all-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/jline-0.9.94.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/log4j-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/mavibot-1.0.0-M1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/mina-core-2.0.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/mockito-all-1.8.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/netty-3.10.6.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/org.abego.treelayout.core-1.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/test/lib/slf4j-log4j12-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/conf/configuration.xsl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/conf/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/conf/zoo_sample.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/config/defaultConnectionSettings.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/config/defaultNodeVeiwers.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/edtsrclkup_co.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/file_obj.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/fldr_obj.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/info_obj.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/jspdecl.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/launch_run.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/launch_stop.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/new_con.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/refresh.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/save_edit.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/search_next.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/search_prev.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/icons/trash.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/lib/jtoaster-1.0.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/licences/Apache Software Licence v2.0.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/licences/epl-v10.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/ZooInspector.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/encryption/BasicDataEncryptionManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/encryption/DataEncryptionManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/NodeViewersChangeListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/ZooInspectorAboutDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/ZooInspectorConnectionPropertiesDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/ZooInspectorIconResources.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/ZooInspectorNodeViewersDialog.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/ZooInspectorNodeViewersPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/ZooInspectorPanel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/ZooInspectorTreeViewer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/about.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/nodeviewer/NodeViewerACL.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/nodeviewer/NodeViewerData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/nodeviewer/NodeViewerMetaData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/gui/nodeviewer/ZooInspectorNodeViewer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/logger/LoggerFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/manager/NodeListener.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/manager/Pair.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/manager/ZooInspectorManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/manager/ZooInspectorManagerImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/manager/ZooInspectorNodeManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/manager/ZooInspectorNodeTreeManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/inspector/manager/ZooInspectorReadOnlyManager.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/src/java/org/apache/zookeeper/retry/ZooKeeperRetry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/ZooInspector/zookeeper-3.4.13-ZooInspector.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/fatjar/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/fatjar/conf/mainClasses" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/fatjar/src/java/org/apache/zookeeper/util/FatJarMain.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/fatjar/zookeeper-3.4.13-fatjar.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/FilterException.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/FilterOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/FilterParser.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/JsonGenerator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/Log4JEntry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/Log4JSource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/LogEntry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/LogIterator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/LogServer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/LogSkipList.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/LogSource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/MeasureThroughput.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/MergedLogSource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/RandomAccessFileReader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/TransactionEntry.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/TxnLogSource.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/AndOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/Arg.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/EqualsOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/GreaterThanOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/LessThanOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/NotOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/NumberArg.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/OrOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/StringArg.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/SymbolArg.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/filterops/XorOp.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/servlets/FileLoader.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/servlets/Fs.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/servlets/GraphData.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/servlets/JsonServlet.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/servlets/NumEvents.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/servlets/StaticContent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/src/java/org/apache/zookeeper/graph/servlets/Throughput.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/loggraph/zookeeper-3.4.13-loggraph.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/conf/keys/README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/conf/keys/rest.cer" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/conf/keys/rest.jks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/conf/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/conf/rest.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/activation-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/asm-3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/grizzly-framework-1.9.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/grizzly-http-1.9.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/grizzly-http-servlet-1.9.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/grizzly-portunif-1.9.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/grizzly-rcm-1.9.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/grizzly-servlet-webserver-1.9.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/grizzly-utils-1.9.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jackson-core-asl-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jaxb-api-2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jaxb-impl-2.1.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jersey-core-1.1.5.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jersey-json-1.1.5.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jersey-server-1.1.5.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jettison-1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/jsr311-api-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/log4j-1.2.15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/servlet-api-2.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/slf4j-api-1.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/slf4j-log4j12-1.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/stax-api-1.0-2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/lib/stax-api-1.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/rest/zookeeper-3.4.13-rest.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/Makefile.am" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/configure.ac" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/Makefile.am" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/blockingqueue.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/doxygen.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/event.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/event.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/log.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/log.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/log4cxx.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/mutex.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/thread.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/thread.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/zkadapter.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/zkadapter.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkfuse/src/zkfuse.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/Changes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/MANIFEST" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/Makefile.PL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/NOTICE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/ZooKeeper.pm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/ZooKeeper.xs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/build/check_zk_version.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/build/check_zk_version.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/10_invalid.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/15_thread.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/20_tie.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/22_stat_tie.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/24_watch_tie.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/30_connect.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/35_log.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/40_basic.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/45_class.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/50_access.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/60_watch.t" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/t/util.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkperl/typemap" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/ivy.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/c/pyzk_docstrings.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/c/zookeeper.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/examples/README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/examples/watch_znode_for_changes.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/packages/deb/zkpython.control/control" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/packages/rpm/spec/zkpython.spec" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/python/setup.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/python/zk.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/acl_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/async_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/callback_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/clientid_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/close_deadlock_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/connection_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/create_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/delete_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/exists_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/get_set_test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/run_tests.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/zkServer.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zkpython/src/test/zktestbase.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/Makefile.am" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/VERSION" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/configure.ac" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/src/Makefile.am" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/src/SimpleTree.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/src/ZkAdaptor.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/src/ZkAdaptor.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/src/ZkTreeUtil.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/src/ZkTreeUtil.h" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/src/ZkTreeUtilMain.cc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/contrib/zktreeutil/tests/zk_sample.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-javadoc.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-javadoc.jar.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-javadoc.jar.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-javadoc.jar.sha1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-sources.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-sources.jar.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-sources.jar.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-sources.jar.sha1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-tests.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-tests.jar.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-tests.jar.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13-tests.jar.sha1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.jar.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.jar.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.jar.sha1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.pom" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.pom.asc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.pom.md5" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/dist-maven/zookeeper-3.4.13.pom.sha1" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/allclasses-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/allclasses-noframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/constant-values.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/deprecated-list.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/help-doc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/index-all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/Record.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/class-use/Record.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/generated/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/generated/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/generated/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/generated/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/compiler/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/jute/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.ACLCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.Children2Callback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.ChildrenCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.DataCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.MultiCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.StatCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.StringCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.VoidCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/AsyncCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/CreateMode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.APIErrorException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.AuthFailedException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.BadArgumentsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.BadVersionException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.Code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.CodeDeprecated.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.ConnectionLossException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.DataInconsistencyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.InvalidACLException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.InvalidCallbackException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.MarshallingErrorException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.NoAuthException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.NoChildrenForEphemeralsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.NoNodeException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.NodeExistsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.NotEmptyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.NotReadOnlyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.OperationTimeoutException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.RuntimeInconsistencyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.SessionExpiredException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.SessionMovedException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.SystemErrorException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.UnimplementedException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/KeeperException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ServerAdminClient.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/Transaction.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/WatchedEvent.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/Watcher.Event.EventType.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/Watcher.Event.KeeperState.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/Watcher.Event.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/Watcher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ZooDefs.Ids.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ZooDefs.OpCode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ZooDefs.Perms.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ZooDefs.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ZooKeeper.States.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ZooKeeper.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/ZooKeeperMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.ACLCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.Children2Callback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.ChildrenCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.DataCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.MultiCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.StatCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.StringCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.VoidCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/AsyncCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/CreateMode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.APIErrorException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.AuthFailedException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.BadArgumentsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.BadVersionException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.Code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.CodeDeprecated.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.ConnectionLossException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.DataInconsistencyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.InvalidACLException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.InvalidCallbackException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.MarshallingErrorException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.NoAuthException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.NoChildrenForEphemeralsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.NoNodeException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.NodeExistsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.NotEmptyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.NotReadOnlyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.OperationTimeoutException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.RuntimeInconsistencyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.SessionExpiredException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.SessionMovedException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.SystemErrorException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.UnimplementedException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/KeeperException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ServerAdminClient.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/Transaction.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/WatchedEvent.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/Watcher.Event.EventType.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/Watcher.Event.KeeperState.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/Watcher.Event.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/Watcher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ZooDefs.Ids.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ZooDefs.OpCode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ZooDefs.Perms.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ZooDefs.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ZooKeeper.States.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ZooKeeper.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/class-use/ZooKeeperMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/FourLetterWordMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/HostProvider.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/StaticHostProvider.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/class-use/FourLetterWordMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/class-use/HostProvider.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/class-use/StaticHostProvider.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/client/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/common/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/common/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/common/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/common/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/ACL.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/Id.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/Stat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/StatPersisted.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/StatPersistedV1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/class-use/ACL.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/class-use/Id.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/class-use/Stat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/class-use/StatPersisted.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/class-use/StatPersistedV1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/data/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/jmx/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/jmx/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/jmx/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/jmx/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/LogFormatter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/PurgeTxnLog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/SnapshotFormatter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/ZooKeeperServerMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/class-use/LogFormatter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/class-use/PurgeTxnLog.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/class-use/SnapshotFormatter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/class-use/ZooKeeperServerMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/quorum/QuorumPeerMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/quorum/class-use/QuorumPeerMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/quorum/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/quorum/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/quorum/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/quorum/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/upgrade/UpgradeMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/upgrade/class-use/UpgradeMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/upgrade/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/upgrade/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/upgrade/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/server/upgrade/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/util/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/util/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/util/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/util/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/version/util/package-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/version/util/package-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/version/util/package-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/org/apache/zookeeper/version/util/package-use.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/overview-frame.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/overview-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/overview-tree.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/package-list" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/script.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/serialized-form.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/api/stylesheet.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperConfig.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperConfig.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperOverview.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperOverview.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperProgrammer.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperProgrammer.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperStarted.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperStarted.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperStream.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/bookkeeperStream.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/broken-links.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/2pc.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/bk-overview.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/built-with-forrest-button.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/hadoop-logo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/instruction_arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/state_dia.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/zkcomponents.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/zknamespace.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/zkperfRW-3.2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/zkperfRW.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/zkperfreliability.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/zkservice.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/images/zookeeper_small.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/index.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/javaExample.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/javaExample.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/alldiffs_index_additions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/alldiffs_index_all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/alldiffs_index_changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/alldiffs_index_removals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/changes-summary.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/classes_index_additions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/classes_index_all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/classes_index_changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/classes_index_removals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/constructors_index_additions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/constructors_index_all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/constructors_index_changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/constructors_index_removals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/fields_index_additions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/fields_index_all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/fields_index_changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/fields_index_removals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/jdiff_help.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/jdiff_statistics.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/jdiff_topleftframe.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/methods_index_additions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/methods_index_all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/methods_index_changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/methods_index_removals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.AsyncCallback.ACLCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.AsyncCallback.ChildrenCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.AsyncCallback.DataCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.AsyncCallback.StatCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.AsyncCallback.StringCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.AsyncCallback.VoidCallback.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.ClientCnxn.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.ClientWatchManager.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.Environment.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.BadArgumentsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.BadVersionException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.Code.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.InvalidACLException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.NoChildrenForEphemeralsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.NoNodeException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.NodeExistsException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.NotEmptyException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.KeeperException.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.Version.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.Watcher.Event.KeeperState.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.Watcher.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.ZooDefs.OpCode.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.ZooKeeper.States.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.ZooKeeper.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/org.apache.zookeeper.ZooKeeperMain.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/packages_index_additions.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/packages_index_all.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/packages_index_changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/packages_index_removals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/changes/pkg_org.apache.zookeeper.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/missingSinces.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/stylesheet-jdiff.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/jdiff/user_comments_for_zookeeper_3.1.1_to_zookeeper_3.4.13.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/linkmap.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/linkmap.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/recipes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/recipes.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/releasenotes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/CommonMessages_de.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/CommonMessages_en_US.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/CommonMessages_es.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/CommonMessages_fr.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/basic.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/breadcrumbs-optimized.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/breadcrumbs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/fontsize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/getBlank.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/getMenu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/README.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/add.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/apache-thanks.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/built-with-cocoon.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/built-with-forrest-button.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/chapter.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/chapter_open.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/current.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/external-link.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/fix.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/forrest-credit-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/hack.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/header_white_line.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/info.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/instruction_arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/label.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/page.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/pdfdoc.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/poddoc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/printer.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-b-l-15-1body-2menu-3menu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-b-r-15-1body-2menu-3menu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-b-r-5-1header-2tab-selected-3tab-selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-t-l-5-1header-2searchbox-3searchbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-t-l-5-1header-2tab-selected-3tab-selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-t-l-5-1header-2tab-unselected-3tab-unselected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-t-r-15-1body-2menu-3menu.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-t-r-5-1header-2searchbox-3searchbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-t-r-5-1header-2tab-selected-3tab-selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rc-t-r-5-1header-2tab-unselected-3tab-unselected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/remove.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/rss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/spacer.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/success.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/txtdoc.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/update.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/valid-html401.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/vcss.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/warning.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/images/xmldoc.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/menu.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/note.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/print.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/profile.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/prototype.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/skin/screen.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperAdmin.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperAdmin.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperHierarchicalQuorums.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperHierarchicalQuorums.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperInternals.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperInternals.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperJMX.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperJMX.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperObservers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperObservers.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperOtherInfo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperOtherInfo.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperOver.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperOver.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperProgrammers.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperProgrammers.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperQuotas.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperQuotas.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperReconfig.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperStarted.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperStarted.pdf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperTutorial.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/docs/zookeeperTutorial.pdf" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.eclipse/classes-main/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,25 +804,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuorumCnxManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="QuorumCnxManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumCnxManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
               <caret line="563" column="58" lean-forward="false" selection-start-line="563" selection-start-column="58" selection-end-line="563" selection-end-column="58" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-44">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -149,8 +912,8 @@
     <option name="vmOptions" value="archetypeCatalog = internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="222" />
-    <option name="y" value="26" />
+    <option name="x" value="13" />
+    <option name="y" value="29" />
     <option name="width" value="1320" />
     <option name="height" value="833" />
   </component>
@@ -183,28 +946,7 @@
             <path>
               <item name="zookeeper-3.4.13" type="b2602c69:ProjectViewProjectNode" />
               <item name="zookeeper-3.4.13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeper-3.4.13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zookeeper-3.4.13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeper-3.4.13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zookeeper-3.4.13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zookeeper-3.4.13" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zookeeper-3.4.13" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="recipes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -328,15 +1070,15 @@
       <option name="presentableId" value="Default" />
       <updated>1573267439032</updated>
       <workItem from="1573267455913" duration="1632000" />
-      <workItem from="1573439328426" duration="10135000" />
+      <workItem from="1573439328426" duration="10327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11767000" />
+    <option name="totallyTimeSpent" value="11959000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="26" width="1320" height="833" extended-state="0" />
+    <frame x="13" y="29" width="1320" height="833" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -608,14 +1350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumCnxManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="563" column="58" lean-forward="false" selection-start-line="563" selection-start-column="58" selection-end-line="563" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -624,6 +1358,32 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipes/lock/src/java/org/apache/zookeeper/recipes/lock/LockListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/main/org/apache/zookeeper/server/quorum/QuorumCnxManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="563" column="58" lean-forward="false" selection-start-line="563" selection-start-column="58" selection-end-line="563" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
