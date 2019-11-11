@@ -1,0 +1,18 @@
+FastLeaderElection选举过程
+其实在这个投票过程中就涉及到几个类
+
+FastLeaderElection：实现了Election接口，实现各个服务器之间基于TCP协议进行选举
+
+Notification：内部类， 表示收到的选举投票信息（其他服务器发送过来的选举投票信息）
+                其包含了被选举者的id，zxid，选举周期等信息
+
+ToSend：表示发送给其他服务器的选举投票信息，也包含了被选举者的id，zxid，选举周期等信息
+
+Messenger：包含了 WorkerReceiver 和 WorkerSender 2个内部类
+
+        WorkerReceiver 实现了 Runnable 接口，是选票接收器。
+        其会不断的从 QuorumCnxManager  中获取其他服务器发来的消息，并将其转换成一个选票，然后
+        保存到 recvqueue 中
+
+        WorkerSender 也实现了 Runnable 接口，为选票发送器，其会不断的从 sendQueue 中获取待发送的选
+        票，并将其传递到底层 QuorumCnxManager 中
